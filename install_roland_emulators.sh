@@ -4,7 +4,7 @@
 
 ##Install Ubuntu dependencies
 sudo apt update ;
-sudo apt install gcc libqt5multimedia5 git ;
+sudo apt install gcc libqt5multimedia5 git gcc g++ gcc-multilib g++-multilib cmake libsdl2-dev ;
 
 ##Download MT-32 ROMs
 mkdir /home/$USER/.roms/ ;
